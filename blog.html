@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="/img/main-logo-white-transparent.svg" type="image/x-icon">
+    <link rel="icon" href="./img/Favicon-32x32.svg" type="image/x-icon">
     <title>Blog</title>
 </head>
 
@@ -14,13 +14,31 @@
         <div class="hero-container">
             <section class="navegador">
                 <div class="logo">
-                    <a href="portafolio.html"><img src="/img/main-logo-white-transparent.svg" alt=""></a>
+                    <a href="portafolio.html"><img src="./img/main-logo-white-transparent.svg" alt=""></a>
                 </div>
-                <nav>
-                    <a href="portafolio.html">Portafolio</a>
-                    <a href="noticias.html">Noticias</a>
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="contacto.html">Contáctanos</a>
+                <nav >
+                    <ul>
+                        <li>
+                            <a href="portafolio.html">Portafolio</a>
+
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+
+                        </li>
+                        <li>
+                            <a href="noticias.html">Noticias</a>
+
+                        </li>
+                        <li>
+                            <a href="nosotros.html">Nosotros</a>
+
+                        </li>
+                        <li>
+                            <a href="contacto.html">Contáctanos</a>
+
+                        </li>
+                    </ul>
                 </nav>
             </section>
 
@@ -35,19 +53,27 @@
             <img src="./img/main-logo-white.svg" alt="">
         </div>
         <div class="div-parrafo">
-            <h2>Blog</h2>
-            <p>En este espacio vamos a aprender sobre tecnología. Conoceremos la historia de algunos de los pioneros en
-                la creación de los primeros lenguajes de programación. <br> Conoceras los ultimos avances de la tecnología y como la inteligencia artificial es la gran herramienta
-                de los ultimos dias. </p>
+            <h2 class="title">Blog</h2>
+            <p>Prepárate para sumergirte en líneas de código, descubrir nuevas herramientas y compartir el entusiasmo
+                por la innovación tecnológica. ¡Bienvenidos al Rincón del Código, donde cada línea escrita es una
+                oportunidad para crear algo extraordinario!</p>
         </div>
-        <section class="table">
-            <table>
-                <thead>
+        <section class="contTabla" id="dTabla">
+            <table class="tabla">
+                <thead class="head">
                     <tr>
-                        <th><h2>Título</h2></th>
-                        <th><h2>Autor</h2></th>
-                        <th><h2>Fecha de Publicación</h2></th>
-                        <th><h2>Puntuación</h2></th>
+                        <th>
+                            <h2>Título</h2>
+                        </th>
+                        <th>
+                            <h2>Autor</h2>
+                        </th>
+                        <th>
+                            <h2>Fecha de Publicación</h2>
+                        </th>
+                        <th>
+                            <h2>Puntuación</h2>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -93,208 +119,156 @@
                     </tr>
                 </tbody>
             </table>
-            </div>
         </section>
 
-        <h2>Pioneros en la programación: </h2>
+        <section class="container-proyecto">
+            <article id="section1"    class="proyectos">
+                <div class="img_proyectos">
+                    <img src="./img/hopper.jpg" alt="Foto de Grace Hopper" width="400" height="400">
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/5sNuPYJpSCI?si=E0xC51rWbNGg69H5"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe> -->
+                </div>
 
-        <section id="section1">
-            <h3><mark>Grace Hopper</mark></h3>
-            <img src="./img/hopper.jpg" alt="Foto de Grace Hopper" width="400" height="400">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5sNuPYJpSCI?si=E0xC51rWbNGg69H5"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <p>Grace Murray Hopper es conocida como la primera mujer 'hacker' de la historia. Nació el 9 de diciembre,
-                pero de hace 116 años (1906), en Nueva York, en una familia de tradición militar. Su nombre de soltera
-                (y de nacimiento) era Grace Brewster Murray.</p>
-            <p>Matemática, Informática y Contraalmirante de la Armada de los EEUU. Primera programadora que usó el
-                ordenador Mark I. Destacó por desarrollar el primer compilador en 1952 y los lenguajes de programación
-                Flow-Matic (1957) y COBOL (1959-1961) instalados en UNIVAC (UNIVersal Automatic Computer), primera
-                ordenadora comercial. Popularizó el término “bug” como sinónimo de “error técnico”.</p>
+                <div class="content_proyecto">
+                    <h2>Grace Hopper</h2>
+                    <p>Grace Murray Hopper es conocida como la primera mujer 'hacker' de la historia. Nació el 9 de diciembre,
+                        pero de hace 116 años (1906), en Nueva York, en una familia de tradición militar. Su nombre de soltera
+                        (y de nacimiento) era Grace Brewster Murray. <br> Matemática, Informática y Contraalmirante de la Armada de los EEUU. Primera programadora que usó el
+                        ordenador Mark I. Destacó por desarrollar el primer compilador en 1952 y los lenguajes de programación
+                        Flow-Matic (1957) y COBOL (1959-1961) instalados en UNIVAC (UNIVersal Automatic Computer), primera
+                        ordenadora comercial. Popularizó el término “bug” como sinónimo de “error técnico”.</p>
+                </div>
+            </article>
 
-            <section>
-                <h3>Artículos relacionados</h3>
+            <article id="section2" class="proyectos">
+                <div class="content_proyecto">
+                    <h2>Dennis Ritchie</h2>
+                    <p>Dennis Ritchie nació en Bronxville, Nueva York, en 1941. Se graduó de la Universidad de Harvard con
+                    títulos en física y matemáticas aplicadas y con un Ph.D. En Matemáticas (1968). Sus contribuciones a la
+                    computación abarcan cuatro décadas y han tenido un impacto global. <br> Mientras estaba en el Centro de Investigación de Ciencias de Computación de Bell Labs a principios de la
+                    década de 1970, creó el lenguaje de programación C y desarrolló (junto con Ken Thompson) el sistema
+                    operativo UNIX, ambos fundamentos de nuestro mundo digital moderno. </p>
+                </div>
+
+                <div class="img_proyectos">
+                    <img src="./img/dennis.jpeg" alt="Foto de Dennis Ritchie" width="400" height="400">
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/aOcYHnRiIjQ?si=hn8nw5MScdUkPuGu"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe> -->
+                </div>        
+            </article>
+
+            <article id="section3" class="proyectos">
+                <div class="img_proyectos">
+                    <img src="./img/samsung.jpeg" alt="Chip exynos de Samsung" width="400" height="400">
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/CHn1XPGb14w?si=jherIxqkhU9vAGFZ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe> -->
+                </div>
+
+                <div class="content_proyecto">
+                    <h2>Samsung se está preparando para dar un zarpazo a TSMC donde más le duele: la fabricación de los
+                        chips para IA </h2>
+                    <p>Samsung ha sido la compañía que ha salido peor parada. Sus ingresos han caído en 2023 un 37,5% frente a
+                        2022, lo que ha provocado que haya cedido a Intel su posición como el segundo mayor proveedor de chips
+                        del planeta. En el otro plato de la balanza se erige NVIDIA, una de las compañías que actualmente
+                        sostiene uno de los negocios más sólidos gracias a la creciente demanda de sus chips para inteligencia
+                        artificial (IA). Sus ingresos se han incrementado un 56,4% durante 2023, lo que le ha permitido meterse
+                        de lleno entre los cinco mayores proveedores de semiconductores (que no fabricantes).</p>
+                </div>
+            </article>
+
+            <article id="section4" class="proyectos">
+                <div class="content_proyecto">
+                    <h2>Un joven de 19 años hackeó el iPhone y fue contratado por Apple</h2>
+                    <p>El joven de 19 años conocido en la red como Comex lanzó el primer jailbreak disponible públicamente para
+                        el iPhone 4 en 2010. Para conseguirlo, encontró la forma de explotar una vulnerabilidad en una
+                        biblioteca de Safari, por lo que su método funcionaba directamente desde el navegador.<br> Comex siguió cultivando su habilidad para romper la seguridad del teléfono de Apple y el año siguiente
+                        lanzó JailbreakMe 3.0, que alcanzaba varios dispositivos iOS, incluido el iPad 2. En este punto, la
+                        comunidad creía que Allegra estaba “años por delante” de otros hackers de iOS.</p>
+                </div>
+
+                <div class="img_proyectos">
+                    <img src="./img/apple.jpeg" alt="Joven que hackeó iPhone" width="500" height="400">
+                    <!-- <video width="600" height="400" controls>
+                        <source src="./video/coding.mp4" type="video/mp4">
+                    </video> -->
+                </div>
+            </article>
+
+            <article id="section5" class="proyectos">
+                <div class="img_proyectos">
+                    <img src="./img/lente.jpg" alt="Lente del telescópica" width="500" height="400">
+                    <!-- <video width="600" height="400" controls>
+                        <source src="./video/moon.mp4" type="video/mp4">
+                    </video> -->
+                </div>
+
+                <div class="content_proyecto">
+                    <h2>Nueva asombrosa lente del telescópica para cámara del teléfono móvil inteligente.</h2>
+                    <p>Este pequeño tubo tecnológicamente impresionante se llama Pilzor Monocular, una creación de ingenieros
+                        suecos que fueron desafiados por su universidad para encontrar un método más eficiente para crear una
+                        lente con zoom telescópico. <br> ¡El resultado es un tubo de 8 pulgadas que aumenta hasta X18! Permite que la gente común como nosotros
+                        tomemos fotografías asombrosas de objetos distantes sin tener que gastar todo nuestro sueldo en una
+                        cámara.</p>
+                </div>
+            </article>
+            
+            <article class="proyectos">
+                <div id="section6" class="content_proyecto">
+                    <h2>Lo que muestran los avances en la aplicación de IA que busca detectar la depresión.</h2>
+                    <p>Se trata de MoodCapture, una aplicación que, mediante la utilización de la cámara frontal del teléfono,
+                        busca captar las expresiones faciales y el entorno de una persona en su rutina diaria. Con ese registro,
+                        realiza una evaluación que permite establecer si hay indicios clínicos que se asocien a la depresión. <br> En el primer estudio que presentaron los investigadores el pasado 27 de febrero seleccionaron 177
+                        personas que habían sido diagnosticadas con trastornos depresivos. Tras el análisis, la aplicación
+                        identificó los casos de depresión con un 75 % de precisión.</p>
+                </div>
+
+                <div class="img_proyectos">
+                    <img src="./img/selfie.jpg" alt="Inteligencia artificial" width="500" height="400">
+                    <!-- <video width="600" height="400" controls>
+                        <source src="./video/sad.mp4" type="video/mp4">
+                    </video> -->
+                </div>
+            </article>
+        </section>
+
+        <section class="relacionados">
+            <div class="title-relacionados">
+                <h2>Articulos relacionados</h2>
+            </div>
                 <ol>
                     <li><a href="https://www.ugr.es/~eaznar/hopper.htm">Grace Murray Hopper. Matemática e informática
                         </a></li>
-                    <li><a href="https://biblioguias.uam.es/politecnica/exposiciones/mujeres-en-las-tic/Grace_Murray">Mujeres
+                        <li><a href="https://biblioguias.uam.es/politecnica/exposiciones/mujeres-en-las-tic/Grace_Murray">Mujeres
                             en las TIC: Grace Murray Hopper</a></li>
                     <li><a href="https://www.nvidia.com/es-la/data-center/grace-hopper-superchip/">Superchip NVIDIA
                             Grace Hopper</a></li>
+                    <li><a href="https://www.latimes.com/espanol/eeuu/articulo/2023-06-01/ap-explica-que-son-los-chips-para-ia-para-que-sirven-y-por-que-atraen-a-los-inversores">Qué
+                        son los chips para IA, para qué sirven y por qué atraen a los inversores</a></li>
+                    <li><a href="https://www.larepublica.co/internet-economy/estados-unidos-china-y-corea-los-que-lideran-la-industria-de-ia-en-fabricacion-de-chips-3649279">Estados
+                        Unidos, China y Corea, los que lideran la industria de IA en fabricación de chips</a></li>
+                    <li><a href="https://www.forbes.com.mx/openai-considera-fabricacion-propios-chips-ia-para-impulsar-tecnologia/">OpenAI
+                        considera la fabricación de sus propios chips de IA para impulsar su tecnología</a></li>
+                    <li><a href="https://platzi.com/tutoriales/1936-lenguaje-c/7063-el-creador-de-lenjuage-c-quien-fue-dennis-ritchie/">El
+                        creador de lenjuage C, ¿Quien fue Dennis Ritchie?</a></li>
                 </ol>
-
-            </section>
-        </section>
-        <section id="section2">
-            <h3><mark>Dennis Ritchie</mark></h3>
-            <img src="./img/dennis.jpeg" alt="Foto de Dennis Ritchie" width="400" height="400">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/aOcYHnRiIjQ?si=hn8nw5MScdUkPuGu"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <p>Dennis Ritchie nació en Bronxville, Nueva York, en 1941. Se graduó de la Universidad de Harvard con
-                títulos en física y matemáticas aplicadas y con un Ph.D. En Matemáticas (1968). Sus contribuciones a la
-                computación abarcan cuatro décadas y han tenido un impacto global. </p>
-            <p>Mientras estaba en el Centro de Investigación de Ciencias de Computación de Bell Labs a principios de la
-                década de 1970, creó el lenguaje de programación C y desarrolló (junto con Ken Thompson) el sistema
-                operativo UNIX, ambos fundamentos de nuestro mundo digital moderno. </p>
-
-            <section>
-                <h3>Artículos relacionados</h3>
-                <ul>
-                    <li><a
-                            href="https://platzi.com/tutoriales/1936-lenguaje-c/7063-el-creador-de-lenjuage-c-quien-fue-dennis-ritchie/">El
-                            creador de lenjuage C, ¿Quien fue Dennis Ritchie?</a></li>
-                    <li><a href="https://www.deustoformacion.com/blog/programacion-diseno-web/que-es-lenguaje-c">¿Qué es
-                            el lenguaje C?</a></li>
-                    <li><a
-                            href="https://ed.team/blog/la-historia-completa-de-unix-como-un-sistema-operativo-cambio-el-mundo">La
-                            historia completa de UNIX ¿Cómo un sistema operativo cambió el mundo?</a></li>
-                </ul>
-            </section>
-        </section>
-
-        <h2>Lo ultimo en tecnología</h2>
-
-        <section id="section3">
-            <h3><mark>Samsung se está preparando para dar un zarpazo a TSMC donde más le duele: la fabricación de los
-                    chips para IA </mark></h3>
-            <img src="./img/samsung.jpeg" alt="Chip exynos de Samsung" width="400" height="400">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/CHn1XPGb14w?si=jherIxqkhU9vAGFZ"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <p>Samsung ha sido la compañía que ha salido peor parada. Sus ingresos han caído en 2023 un 37,5% frente a
-                2022, lo que ha provocado que haya cedido a Intel su posición como el segundo mayor proveedor de chips
-                del planeta. En el otro plato de la balanza se erige NVIDIA, una de las compañías que actualmente
-                sostiene uno de los negocios más sólidos gracias a la creciente demanda de sus chips para inteligencia
-                artificial (IA). Sus ingresos se han incrementado un 56,4% durante 2023, lo que le ha permitido meterse
-                de lleno entre los cinco mayores proveedores de semiconductores (que no fabricantes).</p>
-
-            <section>
-                <h3>Artículos relacionados</h3>
-                <ol>
-                    <li><a
-                            href="https://www.latimes.com/espanol/eeuu/articulo/2023-06-01/ap-explica-que-son-los-chips-para-ia-para-que-sirven-y-por-que-atraen-a-los-inversores">Qué
-                            son los chips para IA, para qué sirven y por qué atraen a los inversores</a></li>
-                    <li><a
-                            href="https://www.larepublica.co/internet-economy/estados-unidos-china-y-corea-los-que-lideran-la-industria-de-ia-en-fabricacion-de-chips-3649279">Estados
-                            Unidos, China y Corea, los que lideran la industria de IA en fabricación de chips</a></li>
-                    <li><a
-                            href="https://www.forbes.com.mx/openai-considera-fabricacion-propios-chips-ia-para-impulsar-tecnologia/">OpenAI
-                            considera la fabricación de sus propios chips de IA para impulsar su tecnología</a></li>
-                </ol>
-
-            </section>
-        </section>
-        <section id="section4">
-            <h3><mark>Un joven de 19 años hackeó el iPhone, fue contratado por Apple y terminó despedido por no
-                    contestar a un correo</mark></h3>
-            <img src="./img/apple.jpeg" alt="Joven que hackeó iPhone" width="500" height="400">
-            <video width="600" height="400" controls>
-                <source src="./video/coding.mp4" type="video/mp4">
-            </video>
-            <p>El joven de 19 años conocido en la red como Comex lanzó el primer jailbreak disponible públicamente para
-                el iPhone 4 en 2010. Para conseguirlo, encontró la forma de explotar una vulnerabilidad en una
-                biblioteca de Safari, por lo que su método funcionaba directamente desde el navegador.</p>
-            <p>Comex siguió cultivando su habilidad para romper la seguridad del teléfono de Apple y el año siguiente
-                lanzó JailbreakMe 3.0, que alcanzaba varios dispositivos iOS, incluido el iPad 2. En este punto, la
-                comunidad creía que Allegra estaba “años por delante” de otros hackers de iOS.</p>
-            <p>La pasantía tenía una duración de un año y, aparentemente, Apple le pidió a Comex por correo electrónico
-                que confirmara si seguiría en la empresa por un año más. Al no recibir una respuesta, la firma dejó sin
-                efecto el contrato del hacker del iPhone, por lo que dejó de ser becario.</p>
-
-            <section>
-                <h3>Artículos relacionados</h3>
-                <ul>
-                    <li><a
-                            href="https://www.eitb.eus/es/radio/radio-euskadi/programas/mas-que-palabras/detalle/9432108/jon-onaindia-de-lin3s-con-desafios-de-privacidad-en-internet/">"Desafíos
-                            de la Privacidad 2024"</a></li>
-                    <li><a
-                            href="https://www.eitb.eus/es/radio/radio-euskadi/programas/distrito-euskadi/detalle/9443291/los-riesgos-de-darkweb/">Los
-                            riesgos de la darkweb</a></li>
-                    <li><a
-                            href="https://www.eitb.eus/es/noticias/sociedad/detalle/9422764/cyberzaintza-mantiene-alerta-en-prevision-de-que-haya-mas-ciberataques-a-instituciones-publicas/">Cyberzaintza
-                            mantiene la alerta en previsión de que haya más ciberataques a instituciones públicas</a>
-                    </li>
-                </ul>
-            </section>
-        </section>
-        <section id="section5">
-            <h3><mark>Nueva asombrosa lente del telescópica para cámara del teléfono móvil inteligente está poniendo
-                    nerviosas a las grandes empresas de cámaras.</mark></h3>
-            <img src="./img/lente.jpg" alt="Lente del telescópica" width="500" height="400">
-            <video width="600" height="400" controls>
-                <source src="./video/moon.mp4" type="video/mp4">
-            </video>
-            <p>Este pequeño tubo tecnológicamente impresionante se llama Pilzor Monocular, una creación de ingenieros
-                suecos que fueron desafiados por su universidad para encontrar un método más eficiente para crear una
-                lente con zoom telescópico.</p>
-            <p>¡El resultado es un tubo de 8 pulgadas que aumenta hasta X18! Permite que la gente común como nosotros
-                tomemos fotografías asombrosas de objetos distantes sin tener que gastar todo nuestro sueldo en una
-                cámara.</p>
-
-            <section>
-                <h3>Artículos relacionados</h3>
-                <ol>
-                    <li><a
-                            href="https://www.larepublica.co/internet-economy/las-marcas-y-camaras-de-celulares-que-ya-tienen-tecnologia-para-fotos-profesionales-3733819">Las
-                            marcas y cámaras de celulares que ya tienen tecnología para fotos profesionales</a></li>
-                    <li><a
-                            href="https://es.quora.com/Qu%C3%A9-tel%C3%A9fono-tiene-actualmente-el-sensor-de-c%C3%A1mara-m%C3%A1s-grande-en-2022">¿Qué
-                            teléfono tiene actualmente el sensor de cámara más grande en 2022?</a></li>
-                    <li><a href="https://www.xataka.com/seleccion/moviles-mejor-camara-que-llevamos-2020">Los móviles
-                            con mejores cámaras que hemos analizado en los últimos meses (2024)</a></li>
-                </ol>
-            </section>
-        </section>
-
-        <section id="section6">
-            <h3><mark>Lo que muestran los avances en la aplicación de IA que busca detectar la depresión.</mark></h3>
-            <video width="600" height="400" controls>
-                <source src="./video/sad.mp4" type="video/mp4">
-            </video>
-            <img src="./img/ia.jpeg" alt="Inteligencia artificial" width="600" height="300">
-            <p>Se trata de MoodCapture, una aplicación que, mediante la utilización de la cámara frontal del teléfono,
-                busca captar las expresiones faciales y el entorno de una persona en su rutina diaria. Con ese registro,
-                realiza una evaluación que permite establecer si hay indicios clínicos que se asocien a la depresión.
-            </p>
-            <p>En el primer estudio que presentaron los investigadores el pasado 27 de febrero seleccionaron 177
-                personas que habían sido diagnosticadas con trastornos depresivos. Tras el análisis, la aplicación
-                identificó los casos de depresión con un 75 % de precisión. “Ha habido un movimiento en favor de la
-                tecnología digital de salud mental para llegar finalmente a una herramienta que pueda predecir el estado
-                de ánimo de las personas diagnosticadas de depresión mayor de forma fiable y no intrusiva”, afirmó
-                Andrew Campbell, profesor de ciencias computacionales y autor del artículo de la investigación.</p>
-
-            <section>
-                <h3>Artículos relacionados</h3>
-                <ul>
-                    <li><a
-                            href="https://eleconomista.com.ar/actualidad/como-funciona-app-capaz-detectar-depresion-usando-camara-celular-n71484">Cómo
-                            funciona la App que es capaz de detectar la depresión usando la cámara del celular</a></li>
-                    <li><a
-                            href="https://www.enter.co/empresas/estudio-revela-que-colombianos-ven-de-manera-positiva-y-usan-ia-en-sus-negocios/">Estudio
-                            revela que colombianos ven de manera positiva la IA y la usan en sus negocios</a></li>
-                    <li><a
-                            href="https://www.colombia.com/tecnologia/ciencia-y-salud/moodcapture-es-la-nueva-herramienta-para-la-salud-mental-455748">MoodCapture:
-                            La nueva app que detecta la depresión con la cámara del celular</a></li>
-                </ul>
-            </section>
         </section>
     </main>
-
+    
     <footer>
         <div class="redes">
             <a href="https://www.instagram.com/_mlsdd/" target="_blank"><img src="./img/instagram.png" alt=""></a>
             <a href="https://www.linkedin.com/in/mariana-p%C3%A9rez-serna-829b4b200/" target="_blank"><img
-                    src="./img/linkedin.png" alt=""></a>
-            <a href="https://github.com/mkserna" target="_blank"><img src="./img/github.png" alt=""></a>
-            <a href="mailto:mperezserna8@gmail.com"><img src="./img/email.png" alt=""></a>
-            <a href="tel:+573008387411"><img src="./img/whatsapp.png" alt=""></a>
+                src="./img/linkedin.png" alt=""></a>
+                <a href="https://github.com/mkserna" target="_blank"><img src="./img/github.png" alt=""></a>
+                <a href="mailto:mperezserna8@gmail.com"><img src="./img/email.png" alt=""></a>
+                <a href="tel:+573008387411"><img src="./img/whatsapp.png" alt=""></a>
         </div>
     </footer>
-
 </body>
-
 </html>
