@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="/img/main-logo-white-transparent.svg" type="image/x-icon">
+    <link rel="icon" href="./img/Favicon-32x32.svg" type="image/x-icon">
     <title>Contacto</title>
 </head>
 <body>
@@ -15,10 +15,28 @@
                     <a href="portafolio.html"><img  src="./img/main-logo-white-transparent.svg" alt=""></a>
                 </div>
                 <nav >
-                    <a href="portafolio.html">Portafolio</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="noticias.html">Noticias</a>
-                    <a href="nosotros.html">Nosotros</a>
+                    <ul>
+                        <li>
+                            <a href="portafolio.html">Portafolio</a>
+
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+
+                        </li>
+                        <li>
+                            <a href="noticias.html">Noticias</a>
+
+                        </li>
+                        <li>
+                            <a href="nosotros.html">Nosotros</a>
+
+                        </li>
+                        <li>
+                            <a href="contacto.html">Contáctanos</a>
+
+                        </li>
+                    </ul>
                 </nav>
             </section>
 
@@ -30,14 +48,17 @@
     </header>
 
     <main>
+        <div class="logo-nosotros">
+            <img src="./img/main-logo-white.svg" alt="">
+        </div>
+        <h2 class="title">Formulario de contacto</h2>
             <section class="formulario">
-                <h2>Formulario de contacto</h2>
                 <form action="" method="get">
-                    <input class="inputs" type="text" required name="name" id="" placeholder="Ingrese su Nombre">
-                    <input class="inputs" type="email" required name="my_email" id="" placeholder="Ingrese su Correo electrónico">
+                    <input class="inputs" type="text" required name="name" class="" placeholder="Ingrese su Nombre">
+                    <input class="inputs" type="email" required name="my_email" class="" placeholder="Ingrese su Correo electrónico">
                     <input class="inputs" type="text" required name="asunto" placeholder="Asunto">
-                    <textarea class="inputs" name="mensaje" required id="" cols="30" rows="10" maxlength="50" placeholder="Mensaje"></textarea>
-                    <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+                    <textarea class="inputs" name="mensaje" required class="" cols="30" rows="10" maxlength="50" placeholder="Mensaje"></textarea>
+                    <p id="pad">Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
                     <input required type="checkbox" name="" id="check">
                     <input class="boton" type="submit" value="Enviar">
                 </form>
